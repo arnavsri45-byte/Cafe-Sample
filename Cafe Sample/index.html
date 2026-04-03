@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWELVE LUCKNOW | Developed by Arnav Srivastava</title>
+    
+    <!-- PREMIUM TYPOGRAPHY ENGINE -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    
+    <style>
+        /* 
+        ============================================================
+        ADVANCED HEAVYWEIGHT CSS ARCHITECTURE 
+        DEVELOPED BY: ARNAV SRIVASTAVA
+        LOCATION: HAZRATGANJ, LUCKNOW
+        ============================================================
+        */
+
+        :root {
+            --gold: #c5a059;
+            --gold-deep: #a68443;
+            --dark-base: #050505;
+            --light-base: #ffffff;
+            --gray-depth: #121212;
+            --text-muted: #888888;
+            --glass-nav: rgba(5, 5, 5, 0.98);
+            --transition-luxe: all 1.2s cubic-bezier(0.19, 1, 0.22, 1);
+            --spacing-section: 180px;
+            --shadow-premium: 0 50px 120px rgba(0,0,0,0.4);
+        }
+
+        /* 1. CORE SYSTEM ARCHITECTURE */
+        * { margin: 0; padding: 0; box-sizing: border-box; outline: none; -webkit-font-smoothing: antialiased; }
+        html { scroll-behavior: smooth; overflow-x: hidden; }
+        body { font-family: 'Montserrat', sans-serif; background: var(--light-base); color: var(--dark-base); line-height: 2.2; }
+
+        /* 2. NAVIGATION FRAMEWORK */
+        nav {
+            background: var(--glass-nav);
+            padding: 45px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10000;
+            border-bottom: 1px solid rgba(197, 160, 89, 0.15);
+            backdrop-filter: blur(35px);
+        }
+        .brand-container { display: flex; flex-direction: column; }
+        .brand-logo { color: var(--gold); font-family: 'Playfair Display', serif; font-size: 2.8rem; letter-spacing: 10px; text-transform: uppercase; font-weight: 900; text-decoration: none; line-height: 0.7; }
+        .dev-credit-nav { color: #fff; font-size: 0.75rem; letter-spacing: 6px; text-transform: uppercase; margin-top: 25px; opacity: 0.6; font-weight: 800; }
+        .nav-menu { display: flex; list-style: none; }
+        .nav-item { margin-left: 70px; }
+        .nav-link { color: #ffffff; text-decoration: none; font-size: 0.85rem; letter-spacing: 6px; text-transform: uppercase; font-weight: 800; transition: var(--transition-luxe); position: relative; }
+        .nav-link:hover { color: var(--gold); letter-spacing: 8px; }
+
+        /* 3. CINEMATIC HERO ENGINE */
+        .hero-engine { height: 100vh; background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), #000; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: #fff; padding: 0 15%; position: relative; }
+        .hero-tagline { color: var(--gold); letter-spacing: 30px; text-transform: uppercase; font-size: 1.1rem; font-weight: 900; margin-bottom: 50px; display: block; }
+        .hero-title { font-family: 'Playfair Display', serif; font-size: clamp(3rem, 8vw, 6rem); line-height: 1; margin-bottom: 70px; font-style: italic; color: #fff; }
+        .hero-cta { border: 2px solid var(--gold); color: var(--gold); padding: 35px 100px; text-decoration: none; font-size: 1.1rem; letter-spacing: 12px; text-transform: uppercase; font-weight: 900; transition: var(--transition-luxe); background: transparent; }
+        .hero-cta:hover { background: var(--gold); color: #000; transform: translateY(-25px); box-shadow: 0 50px 100px rgba(197, 160, 89, 0.3); }
+
+        /* 4. STORY SECTION */
+        .philosophy-section { padding: var(--spacing-section) 10%; background: #fff; display: grid; grid-template-columns: 1fr 1fr; gap: 160px; align-items: center; }
+        .visual-frame { width: 100%; height: 900px; background: #0a0a0a; border: 30px solid #fff; box-shadow: var(--shadow-premium); overflow: hidden; }
+        .visual-frame img { width: 100%; height: 100%; object-fit: cover; }
+        .philosophy-text h2 { font-family: 'Playfair Display', serif; font-size: 6rem; line-height: 0.85; margin-bottom: 70px; font-weight: 900; }
+        .philosophy-text p { font-size: 1.45rem; color: #222; margin-bottom: 50px; font-weight: 300; }
+
+        /* 5. CUISINE SYSTEM (15 ITEMS) */
+        .menu-system { padding: var(--spacing-section) 8%; background: #fafafa; }
+        .menu-header { text-align: center; margin-bottom: 180px; }
+        .menu-header h2 { font-family: 'Playfair Display', serif; font-size: 8rem; letter-spacing: -3px; line-height: 1; }
+        .menu-header span { color: var(--gold); letter-spacing: 20px; text-transform: uppercase; font-weight: 900; display: block; margin-bottom: 10px; }
+        .menu-matrix { display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 120px; }
+        .menu-card { background: #fff; transition: var(--transition-luxe); border-bottom: 1px solid #ddd; padding-bottom: 100px; }
+        .menu-card:hover { transform: translateY(-40px); }
+        .menu-media { width: 100%; height: 550px; background: #eee; margin-bottom: 60px; overflow: hidden; }
+        .menu-media img { width: 100%; height: 100%; object-fit: cover; transition: 5s ease; }
+        .menu-card:hover .menu-media img { transform: scale(1.3); }
+        .menu-detail { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+        .menu-detail h4 { font-family: 'Playfair Display', serif; font-size: 3rem; font-weight: 900; }
+        .price-tag { color: var(--gold); font-size: 2.2rem; font-weight: 900; }
+        .recipe-notes { font-size: 1.2rem; color: #666; font-style: italic; line-height: 1.6; }
+
+        /* 6. ROASTERY SECTION - CUSTOM GOLD & IMAGES */
+        .roastery-matrix { background: var(--dark-base); color: var(--gold-light); padding: var(--spacing-section) 8%; }
+        .coffee-system { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 80px; margin-top: 140px; }
+        .coffee-box { padding: 70px; border: 1px solid rgba(197, 160, 89, 0.25); transition: var(--transition-luxe); text-align: center; background: #080808; }
+        .coffee-box:hover { background: var(--gray-depth); border-color: var(--gold); transform: scale(1.08) rotate(1deg); }
+        .coffee-img { width: 100%; height: 350px; background: #111; margin-bottom: 40px; overflow: hidden; }
+        .coffee-img img { width: 100%; height: 100%; object-fit: cover; }
+        .coffee-box h4 { font-family: 'Playfair Display', serif; font-size: 3rem; color: var(--gold); margin-bottom: 15px; font-weight: 900; }
+        .coffee-price { color: #fff; font-weight: 900; font-size: 1.8rem; display: block; margin-bottom: 25px; border-bottom: 1px solid var(--gold-dark); padding-bottom: 20px; width: fit-content; margin: 0 auto 25px; }
+
+        /* 7. CONTACT & WHATSAPP (7080306365) */
+        .contact-engine { padding: var(--spacing-section) 10%; background: #000; color: #fff; text-align: center; border-top: 2px solid var(--gold); }
+        .address-architecture { margin: 120px auto; padding: 120px; border: 2px solid var(--gold); max-width: 1200px; background: #030303; position: relative; box-shadow: 0 0 150px rgba(197, 160, 89, 0.15); }
+        .address-architecture h3 { font-family: 'Playfair Display', serif; font-size: 5rem; color: var(--gold); margin-bottom: 50px; letter-spacing: 8px; font-weight: 900; }
+        .address-architecture p { font-size: 2rem; letter-spacing: 5px; text-transform: uppercase; font-weight: 300; }
+        .luxe-timing { margin-top: 60px; color: var(--gold); font-size: 2rem; font-weight: 900; letter-spacing: 12px; border-top: 1px solid rgba(197, 160, 89, 0.3); padding-top: 60px; }
+        .whatsapp-heavy { background: #25d366; color: #fff; padding: 40px 120px; text-decoration: none; display: inline-block; font-weight: 900; letter-spacing: 10px; border-radius: 5px; font-size: 1.6rem; transition: var(--transition-luxe); margin-top: 100px; text-transform: uppercase; box-shadow: 0 40px 80px rgba(37, 211, 102, 0.4); }
+        .whatsapp-heavy:hover { transform: scale(1.2) translateY(-30px); background: #1da851; }
+
+        /* 8. HEAVY FOOTER ARCHITECTURE */
+        footer { background: #000; padding: var(--spacing-section) 8% 100px; text-align: center; border-top: 1px solid #111; position: relative; }
+        .footer-matrix { display: grid; grid-template-columns: repeat(3, 1fr); gap: 100px; color: #555; font-size: 1.1rem; letter-spacing: 5px; text-transform: uppercase; margin-bottom: 120px; }
+        .footer-matrix h4 { color: var(--gold); margin-bottom: 45px; font-weight: 900; font-size: 1.4rem; }
+        .dev-signature-heavy { color: var(--gold); font-weight: 900; letter-spacing: 15px; font-size: 1.5rem; margin: 100px auto 0; text-transform: uppercase; display: block; border: 2px solid var(--gold); padding: 30px; width: fit-content; }
+    </style>
+</head>
+<body>
+
+    <!-- [ELITE NAVIGATION BY ARNAV SRIVASTAVA] -->
+    <nav>
+        <div class="brand-container">
+            <a href="#" class="brand-logo">Twelve</a>
+            <span class="dev-credit-nav">Developed by Arnav Srivastava</span>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#story" class="nav-link">History</a></li>
+            <li class="nav-item"><a href="#menu" class="nav-link">Cuisine</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Reserve</a></li>
+        </ul>
+    </nav>
+
+    <!-- [CINEMATIC STAGE] -->
+    <section id="home" class="hero-engine">
+        <span class="hero-tagline">ESTABLISHED IN THE HEART OF LUCKNOW</span>
+        <h1 class="hero-title">Symphony of <br> Indian Soul</h1>
+        <a href="#menu" class="hero-cta">View The Menu</a>
+    </section>
+
+    <!-- [THE STORY] -->
+    <section id="story" class="philosophy-section">
+        <div class="visual-frame"><img src="story.jpg" alt="Story Image"></div>
+        <div class="philosophy-text">
+            <h2>Luxury In Every <br> Micro-Gram.</h2>
+            <p>Twelve Lucknow is a sanctuary crafted for those who define excellence. We have woven the heritage of North-Indian spices with the clinical precision of European coffee culture.</p>
+            <p>Every artisanal plate is a testament to our relentless obsession with absolute quality. Welcome to the elite standard of Hazratganj.</p>
+        </div>
+    </section>
+
+    <!-- [FOOD MENU - 15 ITEMS] -->
+    <section id="menu" class="menu-system">
+        <div class="menu-header">
+            <span>THE ELITE COLLECTION</span>
+            <h2>Artisan Indian Bistro</h2>
+        </div>
+        <div class="menu-matrix">
+            <div class="menu-card"><div class="menu-media"><img src="1.jpg" alt="1"></div><div class="menu-detail"><h4>Tandoori Dimsums</h4><span class="price-tag">₹445</span></div><p class="recipe-notes">Charcoal-smoked dumplings served with signature mint emulsion.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="2.jpg" alt="2"></div><div class="menu-detail"><h4>Masala Truffle Fries</h4><span class="price-tag">₹350</span></div><p class="recipe-notes">Triple-cooked farm potatoes tossed in pure truffle oil.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="3.jpg" alt="3"></div><div class="menu-detail"><h4>Clay-Oven Avocado</h4><span class="price-tag">₹550</span></div><p class="recipe-notes">Organic Mexican avocados seared in a traditional tandoor.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="4.jpg" alt="4"></div><div class="menu-detail"><h4>Makhani Fettuccine</h4><span class="price-tag">₹750</span></div><p class="recipe-notes">Pasta tossed in a 24-hour slow-cooked creamy makhani gravy.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="5.jpg" alt="5"></div><div class="menu-detail"><h4>Paneer Carpaccio</h4><span class="price-tag">₹480</span></div><p class="recipe-notes">Paper-thin cold-pressed cottage cheese with wild basil.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="6.jpg" alt="6"></div><div class="menu-detail"><h4>Quinoa Bhel 2.0</h4><span class="price-tag">₹320</span></div><p class="recipe-notes">A modern superfood take on the classic street snack.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="7.jpg" alt="7"></div><div class="menu-detail"><h4>Shank Rogan Tacos</h4><span class="price-tag">₹895</span></div><p class="recipe-notes">Slow-braised lamb shank in soft corn tortillas.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="8.jpg" alt="8"></div><div class="menu-detail"><h4>Smoked Tikka Pizza</h4><span class="price-tag">₹650</span></div><p class="recipe-notes">Wood-fired sourdough crust topped with tandoori smoked paneer.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="9.jpg" alt="9"></div><div class="menu-detail"><h4>Saffron Gold Risotto</h4><span class="price-tag">₹720</span></div><p class="recipe-notes">Arborio rice slow-cooked with pure Kashmiri Saffron.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="10.jpg" alt="10"></div><div class="menu-detail"><h4>Spicy Gyoza Indian</h4><span class="price-tag">₹395</span></div><p class="recipe-notes">Pan-seared dumplings with a fiery North-Indian kick.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="11.jpg" alt="11"></div><div class="menu-detail"><h4>Pesto Malai Paneer</h4><span class="price-tag">₹420</span></div><p class="recipe-notes">Charcoal-grilled paneer steaks with a fresh pine nut reduction.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="12.jpg" alt="12"></div><div class="menu-detail"><h4>Tempura Sliders</h4><span class="price-tag">₹950</span></div><p class="recipe-notes">Mini brioche buns with tiger prawns and wasabi mayo.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="13.jpg" alt="13"></div><div class="menu-detail"><h4>Loaded Artisanal Nachos</h4><span class="price-tag">₹380</span></div><p class="recipe-notes">Oven-baked corn chips with three-cheese melt.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="14.jpg" alt="14"></div><div class="menu-detail"><h4>Zesty Chicken Steak</h4><span class="price-tag">₹850</span></div><p class="recipe-notes">Flame-grilled chicken breast with mushroom-pepper jus.</p></div>
+            <div class="menu-card"><div class="menu-media"><img src="15.jpg" alt="15"></div><div class="menu-detail"><h4>Lotus Biscoff Brownie</h4><span class="price-tag">₹450</span></div><p class="recipe-notes">Warm chocolate brownie topped with Biscoff gelato.</p></div>
+        </div>
+    </section>
+
+    <!-- [ROASTERY - 10 ITEMS] -->
+    <section class="roastery-matrix">
+        <div class="menu-header">
+            <span style="color:#fff; opacity:0.5;">CRAFTED BREWS</span>
+            <h2 style="color:var(--gold)">Elite Roastery</h2>
+        </div>
+        <div class="coffee-system">
+            <div class="coffee-box"><div class="coffee-img"><img src="c1.jpg" alt="c1"></div><h4>Grand Espresso</h4><span class="coffee-price">₹160</span><p>Pure essence of our high-altitude double-shot blend.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c2.jpg" alt="c2"></div><h4>Spanish Cortado</h4><span class="coffee-price">₹210</span><p>Balanced espresso and silky steamed milk.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c3.jpg" alt="c3"></div><h4>Nitro Silk Brew</h4><span class="coffee-price">₹320</span><p>Nitrogen-infused cold brew for a stout-like finish.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c4.jpg" alt="c4"></div><h4>Velvet Flat White</h4><span class="coffee-price">₹240</span><p>Double ristretto with micro-foam poured to perfection.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c5.jpg" alt="c5"></div><h4>Irish Frappe</h4><span class="coffee-price">₹320</span><p>Blended coffee with non-alcoholic Irish cream.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c6.jpg" alt="c6"></div><h4>Rose Matcha</h4><span class="coffee-price">₹380</span><p>Ceremonial matcha whisked with rose-infused milk.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c7.jpg" alt="c7"></div><h4>Manual V60</h4><span class="coffee-price">₹260</span><p>Slow filter-dripped coffee highlighting floral notes.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c8.jpg" alt="c8"></div><h4>Hazelnut Latte</h4><span class="coffee-price">₹270</span><p>Espresso with hazelnut syrup and hot micro-foam.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c9.jpg" alt="c9"></div><h4>Vietnamese Cold</h4><span class="coffee-price">₹250</span><p>Dark roast dripped over sweet condensed milk.</p></div>
+            <div class="coffee-box"><div class="coffee-img"><img src="c10.jpg" alt="c10"></div><h4>Signature Affogato</h4><span class="coffee-price">₹350</span><p>Vanilla bean gelato 'drowned' in a hot double shot.</p></div>
+        </div>
+    </section>
+
+    <!-- [CONTACT ARCHITECTURE (7080306365)] -->
+    <section id="contact" class="contact-engine">
+        <h2>Reserve Your Table</h2>
+        <div class="address-architecture">
+            <h3>THE LOCATION</h3>
+            <p>12/4 Habibullah Estate, Hazratganj</p>
+            <p>Lucknow, Uttar Pradesh - 226001</p>
+            <div class="luxe-timing">OPEN DAILY: 11:00 AM — 11:00 PM</div>
+        </div>
+        <a href="https://wa.me" class="whatsapp-heavy">ORDER VIA WHATSAPP</a>
+    </section>
+
+    <!-- [MEGA FOOTER] -->
+    <footer>
+        <div class="footer-matrix">
+            <div><h4>HOURS</h4><p>Mon - Sun<br>11:00 AM - 11:00 PM</p></div>
+            <div><h4>DINING</h4><p>+91 7080306365<br>hello@twelve.com</p></div>
+            <div><h4>ESTATE</h4><p>Habibullah Estate<br>Hazratganj, LKO</p></div>
+        </div>
+        <span class="dev-signature-heavy">DEVELOPED BY ARNAV SRIVASTAVA</span>
+    </footer>
+
+</body>
+</html>
